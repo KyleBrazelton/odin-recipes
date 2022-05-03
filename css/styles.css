@@ -1,0 +1,19 @@
+/*CSS Style sheet*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.recipeNav {
+    list-style-type: none;
+}
+
+.recipeNav li {
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
