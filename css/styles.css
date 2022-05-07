@@ -13,10 +13,6 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    text-align: center;
-}
-
 .nbottom {
     text-align: center;
 }
@@ -44,12 +40,23 @@ img {
 }
 
 a {
-    color: #54b3d6;
+    color: #006285f7;
     margin: 0 -.50rem;
     padding: 5px .50rem;
     transition: color .2s ease-in-out;
   }
   a:hover {
-    box-shadow: inset 373px 0 0 0 #54b3d6;
+    box-shadow: inset 373px 0 0 0 #006285f7;
     color: white;
+  }
+
+  .recipeNav {
+      display: flex;
+      justify-content: center;
+     
+  }
+
+  .title {
+      display: flex;
+      justify-content: center;
   }
